@@ -1,0 +1,28 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 30px;
+	text-align: center;
+	padding-top: 150px;
+}
+
+.left, .right {
+	display: inline-block;
+	width: 350px;
+}
+
+.right {
+	margin-left: 10px;
+}
+
+.current {
+	border: 3px solid black;
+}
+
+input {
+	width: 100%;
+	font-size: 30px;
+}
+
+#question {
+	cursor: pointer;
+}
